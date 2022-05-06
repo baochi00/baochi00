@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+}
+
+body{
+    background-image: url(../img/background.png)
+}
+
+.header>img{
+    float: left;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+.header{
+    height: 110px;
+    width: 100%;
+    text-align: right;
+}
+
+.header>ul{
+    padding: 40px 40px 0 0;
+    font-size: 15px;
+}
+
+.header>ul>li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header>ul>li{
+    padding: 15px;
+}
+
+.intro{
+    clear: left;
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    text-decoration: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    background-color: #3498DB;
+    margin: 5px 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.nav>ul>li>a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.nav>ul>li>a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.nav input[type=text] {
+    float: right;
+    padding: 6px;
+    margin-top: 15px;
+    margin-right: 30px;
+    border: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-style: italic;
+    width: 200px;
+}
+
+.content{
+    width: 60%;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+h1{
+    padding-bottom: 13px;
+    color:#3498DB;
+}
+
+.post-1{
+    margin: 20px 40px;
+    padding: 15px;
+    background-color: white;
+}
+
+.post-1>img{
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.post-1>p{
+    padding: 23px 15px 10px 0;
+    line-height: 23px;
+    text-align: justify
+}
+
+.post-1>button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #3498DB;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.post-2{
+    margin: 20px 40px;
+    padding: 15px;
+    background-color: white;
+}
+
+.post-2>img{
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.post-2>p{
+    padding: 23px 15px 10px 0;
+    line-height: 23px;
+    text-align: justify
+}
+
+.post-2>button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #3498DB;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.post-3{
+    margin: 20px 40px;
+    padding: 15px;
+    background-color: white;
+}
+
+.post-3>img{
+    float: left;
+    height: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.post-3>p{
+    padding: 23px 15px 10px 0;
+    line-height: 23px;
+    text-align: justify
+}
+
+.post-3>button{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: #3498DB;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.share{
+    clear: left;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+.share>ul>li>i{
+    color:#3498DB;
+}
+
+.icon>ul>li>i{
+    color: black;
+}
+
+.icon>ul>li{
+    padding-left: 15px;
+    color:#3498DB;
+}
+
+.sidebar{
+    float: right;
+    margin-top: 30px;
+}
+
+.next-page{
+    margin: 40px 0 40px 40px;
+}
+
+.next-page>ul>li>button{
+    background-color: #3498DB;
+    color: white;
+    height: 35px;
+    width: 40px;
+    font-size: 15px;
+    border: none;
+}
+
+.email{
+    background-color: #3498DB;
+    height: 210px;
+    width: 80%;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.email>h2{
+    color: white;
+    padding: 18px 0;
+    font-weight: 550;
+}
+
+.email input[type=text] {
+    padding: 6px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 2px;
+    width: 280px;
+    height: 40px;
+    display: block;
+}
+
+.email>p{
+    color: yellow;
+    line-height: 13px;
+}
+
+.email>button{
+    height: 35px;
+    width: 80px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 14px;
+    background-color: #3498DB;
+    margin-top: 15px;
+}
+
+.topic{
+    margin-top: 60px;
+    width: 80%;
+    padding-left: 30px;
+    border-bottom: 5px solid #3498DB;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.topic>h2{
+    font-weight: 550;
+    padding-top: 20px;
+}
+
+.topic>ul>li{
+    display: block;
+    margin-top: 12px;
+    color:#3498DB;
+}
+
+.blue{
+    color: blue;
+}
+
+.footer{
+    background-color: #3498DB;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+}
+
